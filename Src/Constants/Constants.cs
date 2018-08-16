@@ -7,5 +7,6 @@
         public const string SampleApi = "http://localhost:56687/api/";
 
         public const string JsOAuth2 = "http://localhost:60977";
+        public const string JsOidc = "http://localhost:62062";
     }
 }

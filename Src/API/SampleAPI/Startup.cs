@@ -43,7 +43,7 @@ namespace SampleAPI
         {
             app.UseCors(policy =>
             {
-                policy.WithOrigins(Constants.JsOAuth2);
+                policy.WithOrigins(Constants.JsOAuth2,Constants.JsOidc);
 
                 policy.AllowAnyHeader();
                 policy.AllowAnyMethod();
